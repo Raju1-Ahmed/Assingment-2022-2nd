@@ -204,8 +204,9 @@ line-height: 28px;
 
 /* End Footer Top  */
 
-/* start manin Footer   */
+/* manin Footer   */
 .footer-section{
+   padding: 35px 0px;
    background: #0A0826;
    align-items: center;
    width: 1050px;
@@ -219,16 +220,27 @@ line-height: 28px;
    line-height: 4px;
    color: #fff;
 }
-.top-content p{
+.top-content p {
    color: #D9DBE1;
-   padding: 6px;
+   padding: 0px;
    font-weight: bold;
-   font-size: 11px;
-   line-height: 0px;
+   font-size: 14px;
+   line-height: 27px;
 }
 .icon-link {
-   margin-bottom: 30px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+   padding: 0px 57px;
 }
+.icon-link p{
+   color: #D9DBE1;
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 24px;
+   padding: 0;
+   margin: 0px;
+}
+
 .icon-link a{
    width: 32px;
    color: #fff;
@@ -264,8 +276,9 @@ line-height: 28px;
    text-align: center;
  }
   .products {
-  grid-template-columns:repeat(1, 1fr);
-  align-items: center;
+     display: flex;
+     flex-direction:column;
+    
  }
 
  .footer-top{
@@ -340,6 +353,13 @@ text-align: center;
      display: flex;
      justify-content: center;
    }
+   .icon-link a {
+      width: 32px;
+      color: #fff;
+    }
+    .icon-link p{
+      display: inline-block;
+    
 .top-content{
      text-align: center;
   }
